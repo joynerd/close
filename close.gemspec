@@ -5,20 +5,20 @@ require_relative "lib/close/version"
 Gem::Specification.new do |spec|
   spec.name = "close"
   spec.version = Close::VERSION
-  spec.authors = ["TruRooms Inc."]
-  spec.email = ["developers@trurooms.com"]
+  spec.authors = ["JoyNerd LLC"]
+  spec.email = ["developers@joynerd.io"]
 
   spec.summary = "A ruby wrapper for the close.com API"
   spec.description = "A ruby wrapper for the close.com API that offers caching."
-  spec.homepage = "https://github.com/TruRooms/close"
+  spec.homepage = "https://github.com/joynerd/close"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/TruRooms/close.git"
-  spec.metadata["changelog_uri"] = "https://github.com/TruRooms/changelog.md"
+  spec.metadata["source_code_uri"] = "https://github.com/joynerd/close.git"
+  spec.metadata["changelog_uri"] = "https://github.com/joynerd/changelog.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
