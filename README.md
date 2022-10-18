@@ -8,6 +8,9 @@ It will have many features.
 - [ ] Request Caching
 - [ ] Request Throttling / Queueing for rate limits
 - [ ] Full Documentation
+- [ ] Full Test Coverage
+- [ ] Full API Coverage
+- [ ] Full Child Object Instances
 
 ## Installation
 
@@ -29,20 +32,51 @@ Or install it yourself as:
 
 The gem can be configures in the following ways:
 
-Environment Variables
-
-- `CLOSE_API_KEY` - Your Close API key
-
 Block Configuration
     
 ```ruby
+# Block configuration
 Close.configure do |config|
     config.api_key = 'YOUR_API_KEY'
 end
+# One off settings
+Close.configuration.api_key = 'YOUR_API_KEY'
 ```
 
 
 ## Usage
+
+This gem works by creating resource objects that represent resources on 
+the Close API. These objects can be used to make requests to the API.
+
+```ruby
+
+# Example Using Leads:
+
+# Get a list of leads
+leads = Close::Lead.list
+
+# Get a single lead
+lead = Close::Lead.retrieve('lead_id')
+
+# Update the name
+lead.name = 'New Name'
+
+# Save the changes
+lead.save
+
+
+```
+
+## Supported Resources
+
+### Leads
+[Close API Docs](https://developer.close.com/resources/leads/)
+
+### Custom Activity Types
+[https://developer.close.com/resources/custom-activities/custom-activity-types/](https://developer.close.com/resources/custom-activities/custom-activity-types/)
+
+
 
 ## Documentation
 
