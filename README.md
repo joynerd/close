@@ -74,7 +74,29 @@ lead.save
 [Close API Docs](https://developer.close.com/resources/leads/)
 
 ### Custom Activity Types
-[https://developer.close.com/resources/custom-activities/custom-activity-types/](https://developer.close.com/resources/custom-activities/custom-activity-types/)
+[Close API Docs](https://developer.close.com/resources/custom-activities/custom-activity-types/)
+
+#### .list
+```ruby
+Close::CustomActivityType.list # => Array of [CustomActivityType]
+```
+
+#### .retrieve
+```ruby
+Close::CustomActivityType.retrieve('custom_activity_type_id') # => CustomActivityType
+```
+
+#### .create
+```ruby
+Close::CustomActivityType.create({name: 'Custom Activity Type Name'}) # => CustomActivityType
+```
+
+#### #update
+```ruby
+custom_activity_type = Close::CustomActivityType.retrieve('custom_activity_type_id')
+custom_activity_type.name = 'New Name'
+custom_activity_type.update # => Boolean
+```
 
 
 
