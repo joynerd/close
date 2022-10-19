@@ -70,6 +70,23 @@ lead.save
 
 ## Supported Resources
 
+### Advanced Filters
+[Close API Docs](https://developer.close.com/resources/leads/)
+
+Advanced Filters are a clever way to open up search to the API, with the caveat that they are very dense and appear to be written in search DSL (Elastic, Solr, etc).
+
+I have tried to encapsulate the complexity of the DSL into a simple interface that is easy to use. This is mostly by defining queries before
+they are run and then running them with parameters when they are needed.
+
+An example of an advanced filter query:
+
+```ruby
+# Run a prebuilt query
+Close::AdvancedFilter.run('find_leads_by_email', {email: 'buster.bluth@gmail.com'})
+
+
+```
+
 ### Leads
 [Close API Docs](https://developer.close.com/resources/leads/)
 

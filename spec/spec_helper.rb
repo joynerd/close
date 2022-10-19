@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "close"
+require "support/fake_close"
 require 'webmock/rspec'
 
 WebMock.disable_net_connect!(allow_localhost: true)
