@@ -1,5 +1,7 @@
 # Close
 
+[![Gem Version](https://badge.fury.io/rb/close.svg)](https://badge.fury.io/rb/close) [![Test Coverage](https://api.codeclimate.com/v1/badges/d83380e81bfb459ea027/test_coverage)](https://codeclimate.com/github/joynerd/close/test_coverage)
+
 This a ruby gem that provides a robust way to interact with the Close
 CRM API.
 
@@ -59,12 +61,11 @@ leads = Close::Lead.list
 # Get a single lead
 lead = Close::Lead.retrieve('lead_id')
 
-# Update the name
+# Update the name (and other attributes) of a lead. These are not persisted to the API until you call save.
 lead.name = 'New Name'
 
 # Save the changes
 lead.save
-
 
 ```
 
@@ -84,8 +85,14 @@ An example of an advanced filter query:
 # Run a prebuilt query
 Close::AdvancedFilter.run('find_leads_by_email', {email: 'buster.bluth@gmail.com'})
 
+# Add a new query
+Close::AdvancedFilter.add('find_leads_by_phone_number', {phone_number: '%PHONE_NUMBER%'})
 
+# Run the new query
+Close::AdvancedFilter.run('find_leads_by_phone_number', {phone_number: '555-555-5555'})
 ```
+
+If you think you have a common query or one that would be useful to others, please open an issue with a new query and I will add it to the gem. Or you can submit a PR with the JSON for the query added to the repo.
 
 ### Leads
 [Close API Docs](https://developer.close.com/resources/leads/)

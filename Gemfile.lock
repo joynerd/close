@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    close (0.1.0)
+    close (0.1.1)
       faraday
       ostruct
 
@@ -75,6 +75,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  ruby
 
 DEPENDENCIES
   close!
