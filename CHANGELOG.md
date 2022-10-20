@@ -1,5 +1,17 @@
 ## [Unreleased]
 
+## [0.2.0](https://www.github.com/joynerd/close/compare/v0.1.5...v0.2.0) (2022-10-20)
+
+
+### Features
+
+* Added auto deploy on pr ([3172ac5](https://www.github.com/joynerd/close/commit/3172ac52f2de593b97e1e6283294761a1e0d0bec))
+
+
+### Bug Fixes
+
+* removed ci from GH ([1c6c56b](https://www.github.com/joynerd/close/commit/1c6c56b7e1f96cfaaa313b1cb8f080144d1a6618))
+
 ### [0.1.5](https://www.github.com/joynerd/close/compare/v0.1.4...v0.1.5) (2022-10-20)
 
 
