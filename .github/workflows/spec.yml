@@ -38,6 +38,7 @@ jobs:
       run: bundle exec rspec spec
     - name: Test & publish code coverage
       uses: paambaati/codeclimate-action@v3.1.1
-      coverageLocations: simplecov
+      with:
+        coverageLocations: simplecov
       env:
         CC_TEST_REPORTER_ID: 1e65db49dad6965225e65f4a3aefb98b1e378acea0c42ff85001622b5e3038c1
