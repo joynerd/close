@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    close (0.2.0)
+    close (0.3.0)
       faraday (>= 2.0.0)
       ostruct
 
