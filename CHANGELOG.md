@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.1.5](https://www.github.com/joynerd/close/compare/v0.1.4...v0.1.5) (2022-10-20)
+
+
+### Bug Fixes
+
+* updated action to use ruby@v1 ([aefcafb](https://www.github.com/joynerd/close/commit/aefcafb020d48ffcdfd1317189660c5562206c72))
+
 ### [0.1.4](https://www.github.com/joynerd/close/compare/v0.1.3...v0.1.4) (2022-10-20)
 
 
