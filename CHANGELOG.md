@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.1.4](https://www.github.com/joynerd/close/compare/v0.1.3...v0.1.4) (2022-10-20)
+
+
+### Bug Fixes
+
+* added support for actions ([b61d1d2](https://www.github.com/joynerd/close/commit/b61d1d2b31db786ef5ce9e18983226a47269643c))
+
 ### [0.1.3](https://www.github.com/joynerd/close/compare/v0.1.2...v0.1.3) (2022-10-20)
 
 
