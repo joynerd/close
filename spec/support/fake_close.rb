@@ -17,6 +17,14 @@ module FakeClose
     end
 
     #
+    # Activities
+    #
+
+    get '/api/v1/activity/' do
+      json_response 200, 'advanced_filters.json'
+    end
+
+    #
     # Custom Activity Types
     #
 
