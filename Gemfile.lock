@@ -92,6 +92,7 @@ DEPENDENCIES
   rspec (~> 3.0)
   rubocop (~> 1.21)
   simplecov
+  simplecov_json_formatter
   sinatra
   webmock
 

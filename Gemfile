@@ -18,3 +18,5 @@ gem "webmock"
 gem "sinatra"
 
 gem 'simplecov', require: false, group: :test
+
+gem 'simplecov_json_formatter', require: false, group: :test
