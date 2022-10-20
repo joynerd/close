@@ -1,6 +1,6 @@
 # Close
 
-[![Gem Version](https://badge.fury.io/rb/close.svg)](https://badge.fury.io/rb/close) [![Test Coverage](https://api.codeclimate.com/v1/badges/d83380e81bfb459ea027/test_coverage)](https://codeclimate.com/github/joynerd/close/test_coverage)
+[![Gem Version](https://badge.fury.io/rb/close.svg)](https://badge.fury.io/rb/close) ![Tests](https://github.com/joynerd/close/actions/workflows/spec.yml/badge.svg) [![Test Coverage](https://api.codeclimate.com/v1/badges/d83380e81bfb459ea027/test_coverage)](https://codeclimate.com/github/joynerd/close/test_coverage)
 
 This a ruby gem that provides a robust way to interact with the Close
 CRM API.
