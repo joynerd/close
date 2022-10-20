@@ -7,5 +7,13 @@ RSpec.describe Close::CustomActivityType do
       expect(Close::CustomActivityType.resource_url).to eq("api/v1/custom_activity/")
     end
   end
+
+  describe ".list" do
+    it "returns a list of custom activity types" do
+      list = Close::CustomActivityType.list
+      expect(list).to be_a(Array)
+      expect(list.first).to be_a(Close::CustomActivityType)
+    end
+  end
   
 end

@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "date_created": "2022-10-20T17:54:40.457000+00:00",
+      "integration_links": [],
+      "tasks": [],
+      "opportunities": [],
+      "display_name": "Buster",
+      "updated_by_name": "Gob Bluth",
+      "custom": {
+        "Lead Source": "Live Chat"
+      },
+      "name": "Buster",
+      "organization_id": "orga_sQCDgQfoxmmkI59XnDjK6e8352nr27OTcvqVBnkI6ts",
+      "id": "lead_bAxeQokTafFbGnA6PtyR8j4Mduc0bSJYjLgvWB6Fw4g",
+      "created_by_name": "Gob Bluth",
+      "updated_by": "user_lsZsum9XfOCKNXENrC1hdCczZ9N7PYnA9gA2uyAVjwC",
+      "description": "",
+      "status_label": "New",
+      "status_id": "stat_idnMBWM5cpAzWhhtRtZfjuEicQkuE56QJhIFiQ6vTvS",
+      "addresses": [],
+      "contacts": [
+        {
+          "date_created": "2022-10-20T17:54:40.462000+00:00",
+          "urls": [],
+          "integration_links": [],
+          "phones": [],
+          "display_name": "Buster",
+          "created_by": "user_lsZsum9XfOCKNXENrC1hdCczZ9N7PYnA9gA2uyAVjwC",
+          "name": "Buster",
+          "lead_id": "lead_bAxeQokTafFbGnA6PtyR8j4Mduc0bSJYjLgvWB6Fw4g",
+          "organization_id": "orga_sQCDgQfoxmmkI59XnDjK6e8352nr27OTcvqVBnkI6ts",
+          "id": "cont_Xol7CDiA6wkIBgD6lcvNDRD1Rwpb92WrAGFFQnyUU8C",
+          "date_updated": "2022-10-20T17:55:21.990000+00:00",
+          "emails": [
+            {
+              "email": "buster.bluth@close.com",
+              "type": "direct"
+            }
+          ],
+          "updated_by": "user_lsZsum9XfOCKNXENrC1hdCczZ9N7PYnA9gA2uyAVjwC",
+          "title": ""
+        }
+      ],
+      "created_by": "user_lsZsum9XfOCKNXENrC1hdCczZ9N7PYnA9gA2uyAVjwC",
+      "date_updated": "2022-10-20T17:55:22+00:00",
+      "html_url": "https://app.close.com/lead/lead_bAxeQokTafFbGnA6PtyR8j4Mduc0bSJYjLgvWB6Fw4g/",
+      "url": null
+    }
+  ],
+  "has_more": false,
+  "total_results": 1
+}

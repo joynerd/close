@@ -19,13 +19,6 @@ RSpec.describe Close::APIResource do
         expect(Close::APIResource.new(name: "Test").dirty?).to eq(true)
       end
     end
-    context "when the resource has unsaved values and is saved" do
-      it "returns false" do
-        resource = Close::APIResource.new(name: "Test")
-        resource.save
-        expect(resource.dirty?).to eq(false)
-      end
-    end
   end
   
 end

@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'simplecov'
+SimpleCov.start
+
 require "close"
 require "support/fake_close"
 require 'webmock/rspec'
@@ -17,8 +20,13 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 
+  Close.configure do |config|
+    config.api_key = "test"
+    config.logger = nil
+  end
+
   config.before(:each) do
-    stub_request(:any, /api.close.com/).to_rack(FakeClose)
+    stub_request(:any, /api.close.com/).to_rack(FakeClose::Base)
   end
 
 end

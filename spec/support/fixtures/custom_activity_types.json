@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "api_create_only": true,
+      "created_by": "user_BxW2ORXk7XdeSMaDYKh1ncnNAlEyQA4rCdTJkYzMUWo",
+      "date_created": "2022-09-27T21:50:36.274735",
+      "date_updated": "2022-09-27T23:06:42.277889",
+      "description": null,
+      "editable_with_roles": [
+        "admin"
+      ],
+      "fields": [
+        {
+          "accepts_multiple_values": false,
+          "back_reference_is_visible": null,
+          "converting_to_type": null,
+          "description": null,
+          "editable_with_roles": [],
+          "id": "cf_RSO1Mtp4HVTdyJsxAjbj60GI0u6zKDHtmDuHJj1l9ou",
+          "is_shared": false,
+          "name": "Date and Time",
+          "referenced_custom_type_id": null,
+          "required": false,
+          "type": "datetime"
+        },
+        {
+          "accepts_multiple_values": false,
+          "back_reference_is_visible": null,
+          "converting_to_type": null,
+          "description": null,
+          "editable_with_roles": [],
+          "id": "cf_n6NrYeDCZmoEwceX8reZJu2AWLR8grdtyLe9UH8VFEs",
+          "is_shared": false,
+          "name": "URL",
+          "referenced_custom_type_id": null,
+          "required": false,
+          "type": "text"
+        }
+      ],
+      "id": "actitype_4nf6eMTqoJnfcMX0LaWI55",
+      "name": "Test Activity Type",
+      "organization_id": "orga_sQCDgQfoxmmkI59XnDjK6e8352nr27OTcvqVBnkI6ts",
+      "updated_by": "user_lsZsum9XfOCKNXENrC1hdCczZ9N7PYnA9gA2uyAVjwC"
+    }
+  ]
+}

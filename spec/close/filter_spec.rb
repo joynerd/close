@@ -2,6 +2,15 @@
 
 RSpec.describe Close::Filter do
 
+  describe ".run" do
+    context "With a valid filter" do
+      it "returns a result" do
+        list = Close::Filter.run("find_lead_by_contact_email", { email: 'buster.bluth@close.com'})
+        expect(list).to be_a(Array)
+      end
+    end
+  end
+
   describe ".load_query" do
     context "when the query exists in memory" do
       it "returns the query" do

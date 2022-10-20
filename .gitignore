@@ -9,3 +9,5 @@
 
 # rspec failure tracking
 .rspec_status
+# VCR Cassettes
+/spec/support/vcr_cassettes/

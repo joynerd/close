@@ -81,7 +81,8 @@ module Close
     # @raise [Close::QueryNotFoundError] if the file does not exist.
     def self.load_query_from_file(name)
       begin
-        file = File.read("lib/close/data/filters/#{name}.json")
+        file = File.read(File.join(File.dirname(__FILE__), "data/filters/#{name}.json"))
+        #file = File.read(File.expand_path("lib/close/data/filters/#{name}.json", __dir__))
       rescue Errno::ENOENT
         raise Close::QueryNotFoundError.new("Query #{name} not found.")
       end

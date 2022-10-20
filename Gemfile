@@ -16,3 +16,5 @@ gem "faraday"
 gem "webmock"
 
 gem "sinatra"
+
+gem 'simplecov', require: false, group: :test
