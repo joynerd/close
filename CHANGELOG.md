@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [0.3.0](https://www.github.com/joynerd/close/compare/v0.2.0...v0.3.0) (2022-10-20)
+
+
+### Features
+
+* Added support for Activity endpoint ([32d01fc](https://www.github.com/joynerd/close/commit/32d01fc2a65e7ff30605e855cbea2693d2410848))
+
 ## [0.2.0](https://www.github.com/joynerd/close/compare/v0.1.5...v0.2.0) (2022-10-20)
 
 
