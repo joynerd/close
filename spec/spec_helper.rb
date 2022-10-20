@@ -25,6 +25,7 @@ RSpec.configure do |config|
     config.logger = nil
   end
 
+  # Dsl for stubbing requests.
   config.before(:each) do
     stub_request(:any, /api.close.com/).to_rack(FakeClose::Base)
   end
