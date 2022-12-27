@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [0.5.0](https://www.github.com/joynerd/close/compare/v0.4.0...v0.5.0) (2022-12-27)
+
+
+### Features
+
+* Opportunity endpoint ([98b330b](https://www.github.com/joynerd/close/commit/98b330be980bfd7e4b871d80ea5ef5f5b36d6f51))
+
 ## [0.4.0](https://www.github.com/joynerd/close/compare/v0.3.1...v0.4.0) (2022-12-27)
 
 
