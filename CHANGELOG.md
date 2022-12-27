@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.3.1](https://www.github.com/joynerd/close/compare/v0.3.0...v0.3.1) (2022-12-27)
+
+
+### Bug Fixes
+
+* Added a find lead by contact email or phone number ([2d03bd7](https://www.github.com/joynerd/close/commit/2d03bd7811fb52ce05c7160f48ab113f8931f591))
+
 ## [0.3.0](https://www.github.com/joynerd/close/compare/v0.2.0...v0.3.0) (2022-10-20)
 
 
