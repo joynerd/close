@@ -40,6 +40,14 @@ module FakeClose
       json_response 200, 'leads.json'
     end
 
+    #
+    # organizations
+    #
+
+    get '/api/v1/organization/org_123' do
+      json_response 200, 'organization.json'
+    end
+
     private
 
     def json_response(response_code, file_name)
