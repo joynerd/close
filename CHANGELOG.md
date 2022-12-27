@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [0.4.0](https://www.github.com/joynerd/close/compare/v0.3.1...v0.4.0) (2022-12-27)
+
+
+### Features
+
+* Added organization endpoint ([d77bb8d](https://www.github.com/joynerd/close/commit/d77bb8d721bc407ed5c98e11c131d0aff486d232))
+
 ### [0.3.1](https://www.github.com/joynerd/close/compare/v0.3.0...v0.3.1) (2022-12-27)
 
 
