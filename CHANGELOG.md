@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.5.1](https://www.github.com/joynerd/close/compare/v0.5.0...v0.5.1) (2022-12-28)
+
+
+### Bug Fixes
+
+* Opportunity bug ([62df9ce](https://www.github.com/joynerd/close/commit/62df9ce0f8060debf3c8a6d6bcc01efbdf8be464))
+
 ## [0.5.0](https://www.github.com/joynerd/close/compare/v0.4.0...v0.5.0) (2022-12-27)
 
 
