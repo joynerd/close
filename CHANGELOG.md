@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.5.2](https://www.github.com/joynerd/close/compare/v0.5.1...v0.5.2) (2022-12-29)
+
+
+### Bug Fixes
+
+* .create action on resource not returning a resource ([9088a24](https://www.github.com/joynerd/close/commit/9088a24f50b0d30c5ace309cee5e344a195912d2))
+
 ### [0.5.1](https://www.github.com/joynerd/close/compare/v0.5.0...v0.5.1) (2022-12-28)
 
 
