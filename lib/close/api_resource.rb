@@ -45,9 +45,7 @@ module Close
     # @param values [Hash] the values to create the resource with.
     # @return [Close::APIResource] the created resource.
     def self.create(values = {})
-      record = new(values, {})
-      record.save
-      record
+      new({}, request(:post, resource_url, values))
     end
 
     # Initialize a new resource with the given values.
