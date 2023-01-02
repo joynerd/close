@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.7.1](https://www.github.com/joynerd/close/compare/v0.7.0...v0.7.1) (2023-01-02)
+
+
+### Bug Fixes
+
+* Renamed custom activity ([50bc749](https://www.github.com/joynerd/close/commit/50bc749b24dd2e3e777d6dc2d30821d6baf240fd))
+
 ## [0.7.0](https://www.github.com/joynerd/close/compare/v0.6.0...v0.7.0) (2023-01-02)
 
 
