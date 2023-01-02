@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [0.6.0](https://www.github.com/joynerd/close/compare/v0.5.2...v0.6.0) (2023-01-02)
+
+
+### Features
+
+* user endpoint ([466eb86](https://www.github.com/joynerd/close/commit/466eb862296c070b36f9a7f7b26bd3309593316f))
+
 ### [0.5.2](https://www.github.com/joynerd/close/compare/v0.5.1...v0.5.2) (2022-12-29)
 
 
