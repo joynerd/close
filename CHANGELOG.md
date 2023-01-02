@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [0.7.0](https://www.github.com/joynerd/close/compare/v0.6.0...v0.7.0) (2023-01-02)
+
+
+### Features
+
+* custom activity ([0c8bf6a](https://www.github.com/joynerd/close/commit/0c8bf6aa690577c01064602e3d2332113ac72fb9))
+
 ## [0.6.0](https://www.github.com/joynerd/close/compare/v0.5.2...v0.6.0) (2023-01-02)
 
 
