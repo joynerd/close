@@ -1,5 +1,5 @@
 module Close
-    class Activity < APIResource
+    class CustomActivity < APIResource
 
       def self.resource_url
         'api/v1/activity/custom/'
