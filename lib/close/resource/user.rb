@@ -10,7 +10,7 @@ module Close
       end
 
       def self.availability(params={})
-        items = request(:get, "#{resource_url}availability/", params))
+        items = request(:get, "#{resource_url}availability/", params)
         items['data'].map { |item| new({}, item) }
       end
 
