@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.7.3](https://www.github.com/joynerd/close/compare/v0.7.2...v0.7.3) (2023-01-03)
+
+
+### Bug Fixes
+
+* User availability should return a collection ([60f8cba](https://www.github.com/joynerd/close/commit/60f8cba6911edd3e5b31cfcd619da489e1c507c9))
+
 ### [0.7.2](https://www.github.com/joynerd/close/compare/v0.7.1...v0.7.2) (2023-01-03)
 
 
