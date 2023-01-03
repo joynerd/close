@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.7.4](https://www.github.com/joynerd/close/compare/v0.7.3...v0.7.4) (2023-01-03)
+
+
+### Bug Fixes
+
+* need more unit testing ([bb31180](https://www.github.com/joynerd/close/commit/bb311806eb55fdeaf9071ccdb883894b338da13d))
+
 ### [0.7.3](https://www.github.com/joynerd/close/compare/v0.7.2...v0.7.3) (2023-01-03)
 
 
