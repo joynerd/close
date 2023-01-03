@@ -9,8 +9,9 @@ module Close
         new({}, request(:get, "#{resource_url}me/"))
       end
 
-      def self.availability(params)
-        new({}, request(:get, "#{resource_url}availability/", params))
+      def self.availability(params={})
+        items = request(:get, "#{resource_url}availability/", params))
+        items['data'].map { |item| new({}, item) }
       end
 
     end
