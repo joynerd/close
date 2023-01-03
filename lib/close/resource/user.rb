@@ -9,5 +9,9 @@ module Close
         new({}, request(:get, "#{resource_url}me/"))
       end
 
+      def self.availability(params)
+        new({}, request(:get, "#{resource_url}availability/", params))
+      end
+
     end
 end
