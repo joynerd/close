@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [0.8.0](https://www.github.com/joynerd/close/compare/v0.7.5...v0.8.0) (2023-01-03)
+
+
+### Features
+
+* Added find contact by phone ([1b12dd5](https://www.github.com/joynerd/close/commit/1b12dd505a989e463dc28360f12e33a4bee68f8e))
+
 ### [0.7.5](https://www.github.com/joynerd/close/compare/v0.7.4...v0.7.5) (2023-01-03)
 
 
