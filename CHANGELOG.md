@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.7.2](https://www.github.com/joynerd/close/compare/v0.7.1...v0.7.2) (2023-01-03)
+
+
+### Bug Fixes
+
+* Added availability endpoint to user ([8047352](https://www.github.com/joynerd/close/commit/80473525adb56e358843ef910376e129ddec47d5))
+
 ### [0.7.1](https://www.github.com/joynerd/close/compare/v0.7.0...v0.7.1) (2023-01-02)
 
 
