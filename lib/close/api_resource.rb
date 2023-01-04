@@ -64,6 +64,15 @@ module Close
       @values.merge(@new_values)
     end
 
+    # Escape hatch for new values. Instead of using the defined
+    # accessors, you can use this method to set a value.
+    # @param key [String] the key to set.
+    # @param value [String] the value to set.
+    # @return [String] the value.
+    def set(key, value)
+      @new_values[key] = value
+    end
+
     # Updates the resource on the server. Will not make a request
     # if there are no unsaved changes.
     # @return [Boolean] true if the update succeeded, false otherwise.
